@@ -60,7 +60,7 @@
 // --------------------------------------------------------------------------------------------------------------------------------------------
                                                             // HomeWork
 
-//! Завдання 1 - Виконано двама способами
+// Завдання 1 - Виконано двама способами
 // let arr = [5, 6, 7, 8, 9];
 // let result = 0;
  // const reducer = (accumulator, currentValue) => accumulator + currentValue;
@@ -117,25 +117,24 @@
 // const result = arr.filter(filt)
 // console.log(result)
 
-// Завдання 6. Reduce todo
+// Завдання 6. Reduce
 
-// let arr = [1, 2, 5, 0, 4, 5, 6];
-// let result = arr.reduce(function (a, b){
-//     if (b === 0){
-//     return result
-//     }
-//     return a + b;
-// });
+//const arr = [1, 2, 3, 0, 4, 5, 6];
 //
-// console.log(result)
-
-
-// Завдання 7 todo
-// let arr = [1, -2, 3, 0, 4, -5, 6, -11];
-// function handler(currentValue, index, arr) {
-//     if (currentValue<0) {
-//         return true
-//     } else {false}
+// function sum(arr) {
+//   let flag = false;
+//
+//   return arr.reduce((acc, next) => {
+//     if(next === 0) flag = true
+//     if(!flag) return acc + next
+//     return acc
+//   }, 0);
 // }
-// arr.forEach();
-// console.log(element)
+//
+// console.log(sum(arr));
+
+
+// Завдання 7
+// let arr = [1, -2, 3, 0, 4, -5, 6, -11]
+//
+// console.log(arr.filter(i => i > 0).map(i => parseFloat(Math.sqrt(i).toFixed(3))))
